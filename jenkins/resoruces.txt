@@ -1,0 +1,9 @@
+# Pipeline Syntax
+        https://www.jenkins.io/doc/book/pipeline/syntax/
+
+
+# Pipeline: Basic Steps
+        https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/
+
+# simple-java-maven-app
+https://github.com/jenkins-docs/simple-java-maven-app/tree/master
