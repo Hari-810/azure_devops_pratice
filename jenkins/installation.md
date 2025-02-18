@@ -16,7 +16,7 @@ Before setting up Jenkins in Docker, make sure Docker is installed on your machi
 2. Pull the official Jenkins image from Docker Hub using the following command:
 
 ```bash
-docker pull jenkins/jenkins:lts
+docker pull jenkins/jenkins
 ```
 
 This will pull the latest stable Jenkins image (`lts` stands for Long Term Support).
@@ -26,7 +26,7 @@ This will pull the latest stable Jenkins image (`lts` stands for Long Term Suppo
 1. Once the image is pulled, run the Jenkins container with the following command:
 
 ```bash
-docker run --name jenkins -d -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+docker run --name jenkins -d -p 8080:8080 -p 50000:50000 jenkins/jenkins
 ```
 
 - `--name jenkins`: Specifies the container name.
